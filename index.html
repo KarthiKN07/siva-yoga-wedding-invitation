@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wedding Invitation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <audio id="bgMusic">
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<div class="hearts"></div>
+
+    <div class="card">
+      <div class="flower left">💐</div>
+<div class="flower right">💐</div>
+<p class="welcome">WEDDING INVITATION</p>
+        <h1>💍</h1>
+
+        <h2>Siva ❤️ Yoga</h2>
+
+<div class="name-line"></div>
+        <hr>
+
+        <img src="images/couple.jpg" alt="Couple Photo">
+
+        <p>Together with our families,</p>
+
+        <p>We invite you to celebrate our wedding.</p>
+
+        <h3>30 Aug '26</h3>
+
+        <button onclick="openInvitation()">💌 View Invitation</button>
+
+        <div class="details">
+
+            <h2>Wedding Details</h2>
+
+            <p>📅 Date : 30 Aug '26</p>
+
+            <p>🕘 Time : 8:00 AM</p>
+
+            <p>📍 Venue : Sri Subham Mahal, Trichy</p>
+        
+
+            <a href="https://maps.google.com" target="_blank">
+    <button class="action-btn">📍 View Location</button>
+</a>
+
+            <br><br>
+
+            <a href="tel:8220761715">
+                <button class="action-btn">📞 Call Us</button>
+            </a>
+
+            <br><br>
+
+            <a href="https://wa.me/918220761715">
+                <button class="action-btn">💬 WhatsApp</button>
+            </a>
+            <button onclick="shareInvitation()">📤 Share Invitation</button>
+
+        </div>
+
+        <h2>⏳ Wedding Countdown</h2>
+
+        <h3 id="countdown"></h3>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
