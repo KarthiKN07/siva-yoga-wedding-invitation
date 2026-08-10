@@ -5,7 +5,7 @@
         console.log(err);
     });
 
-    alert("💖 Welcome to Siva ❤️ Yoga Wedding 💖");
+    document.getElementById("invitationPage").style.display = "block";
 }
 
 const weddingDate = new Date("August 30, 2026 08:00:00").getTime();
