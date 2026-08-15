@@ -66,3 +66,6 @@ function shareInvitation(){
     }
 
 }
+function closeInvitation() {
+    document.getElementById("invitationPage").style.display = "none";
+}
