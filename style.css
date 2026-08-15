@@ -286,7 +286,12 @@ hr{
 }
 
 .invite-text{
-    line-height:1.7;
+    line-height:1.9;
+    font-size:18px;
+    color:#6b4c3b;
+    font-style:italic;
+    letter-spacing:1px;
+
 }
 
 .invitation-divider{
