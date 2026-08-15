@@ -5,7 +5,7 @@
         console.log(err);
     });
 
-    document.getElementById("invitationPage").style.display = "block";
+    document.getElementById("invitationPage").style.display = "none";
 }
 
 const weddingDate = new Date("August 30, 2026 08:00:00").getTime();
