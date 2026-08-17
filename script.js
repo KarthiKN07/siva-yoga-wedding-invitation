@@ -73,25 +73,4 @@ const petals = document.querySelector(".petals");
 
 setInterval(() => {
 
-    const petal = document.createElement("div");
-
-    petal.classList.add("petal");
-
-    petal.innerHTML = ["🌸","🌹","💮"]
-    [Math.floor(Math.random()*3)];
-
-    petal.style.left = Math.random() * 100 + "%";
-
-    petal.style.fontSize =
-        (15 + Math.random() * 15) + "px";
-
-    petal.style.animationDuration =
-        (5 + Math.random() * 5) + "s";
-
-    petals.appendChild(petal);
-
-    setTimeout(() => {
-        petal.remove();
-    }, 10000);
-
-}, 600);
+    
