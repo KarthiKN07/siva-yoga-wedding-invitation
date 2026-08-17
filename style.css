@@ -330,20 +330,3 @@ hr{
     z-index: 1;
 }
 
-.petal{
-    position: absolute;
-    top: -50px;
-    animation: fall linear forwards;
-}
-
-@keyframes fall{
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-    }
-
-    100%{
-        transform: translateY(100vh) rotate(360deg);
-        opacity: 0;
-    }
-}
